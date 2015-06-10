@@ -3,5 +3,6 @@ if [ ! -d vendor/jsPDF ]; then
     unzip jsPDF.zip
     mkdir vendor
     mv jsPDF-1.0.272 vendor/jsPDF
+    mv jspdf*.js vendor/jsPDF/
     rm jsPDF.zip
 fi
